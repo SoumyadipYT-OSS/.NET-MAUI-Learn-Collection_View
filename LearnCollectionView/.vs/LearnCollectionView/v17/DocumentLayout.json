@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MAUI Practice\\LearnCollectionView\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|d:\\maui practice\\learncollectionview\\collectionviewdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|solutionrelative:collectionviewdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|d:\\maui practice\\learncollectionview\\collectionviewdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|solutionrelative:collectionviewdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|d:\\maui practice\\learncollectionview\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|d:\\maui practice\\learncollectionview\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3B9A6A-719D-4A7D-8AC2-86702CE04ACD}|LearnCollectionView.csproj|solutionrelative:country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollectionViewDemo.xaml.cs",
+              "DocumentMoniker": "D:\\MAUI Practice\\LearnCollectionView\\CollectionViewDemo.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionViewDemo.xaml.cs",
+              "ToolTip": "D:\\MAUI Practice\\LearnCollectionView\\CollectionViewDemo.xaml.cs",
+              "RelativeToolTip": "CollectionViewDemo.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T13:11:40.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\MAUI Practice\\LearnCollectionView\\Country.cs",
+              "RelativeDocumentMoniker": "Country.cs",
+              "ToolTip": "D:\\MAUI Practice\\LearnCollectionView\\Country.cs",
+              "RelativeToolTip": "Country.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T13:09:41.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\MAUI Practice\\LearnCollectionView\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\MAUI Practice\\LearnCollectionView\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T13:08:39.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectionViewDemo.xaml",
+              "DocumentMoniker": "D:\\MAUI Practice\\LearnCollectionView\\CollectionViewDemo.xaml",
+              "RelativeDocumentMoniker": "CollectionViewDemo.xaml",
+              "ToolTip": "D:\\MAUI Practice\\LearnCollectionView\\CollectionViewDemo.xaml",
+              "RelativeToolTip": "CollectionViewDemo.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-04T13:08:13.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearnCollectionView.CollectionViewDemo"
+             Title="CollectionViewDemo">
+
+    <!--
+    The ability to enable selection in the CollectionView provides flexibility in 
+    in interacting with the items based on specific user requirements.
+-->
+    <!-- 
+    ItemsLayout: allows us to define the layout style to be used for displaying the items 
+    Value (VerticalList): It represents a single column list that grows vertically as new items are added.
+-->
+
+
+    <ScrollView VerticalScrollBarVisibility="Never">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <!-- Row 0 -->
+                <RowDefinition Height="Auto" />
+                <!-- Row 1 -->
+                <RowDefinition Height="Auto" />
+                <!-- Row 2-->
+                <RowDefinition Height="Auto" />
+                <!-- Row 3 -->
+            </Grid.RowDefinitions>
+
+
+            <!-- Example 1 (with CollectionView.Header) -->
+            <CollectionView HorizontalOptions="Center" SelectionMode="None" Grid.Row="0">
+                <CollectionView.Header>
+                    <VerticalStackLayout Background="LightBlue" Padding="5">
+                        <Label Text="Countries List" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" />
+                    </VerticalStackLayout>
+                </CollectionView.Header>
+            </CollectionView>
+
+
+            <!-- Example 2 -->
+            <CollectionView x:Name="showCollectionView1" ItemsLayout="VerticalList" SelectionMode="None" Grid.Row="1" EmptyView="No data available">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="5" Margin="5">
+                            <Frame Margin="10" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".2*" />
+                                        <ColumnDefinition Width=".8*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding FlagUrl}" Grid.Column="0" Grid.Row="0" />
+                                    <VerticalStackLayout Grid.Column="1" Grid.Row="0" Padding="5" VerticalOptions="Center">
+                                        <Label Text="{Binding CountryName }" FontSize="Medium" FontAttributes="Bold" />
+                                        <Label Text="{Binding IsoCode }" FontAttributes="Italic" />
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
+            <!-- Example 3 -->
+            <!-- Here ItemsLayout = "VerticalGrid, 2" makes two column views for each row implementation-->
+            <CollectionView x:Name="showCollectionView2" ItemsLayout="VerticalGrid, 2" SelectionMode="None" Grid.Row="2" EmptyView="No data available">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="5" Margin="5">
+                            <Frame Margin="10" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".2*" />
+                                        <ColumnDefinition Width=".8*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding FlagUrl}" Grid.Column="0" Grid.Row="0" />
+                                    <VerticalStackLayout Grid.Column="1" Grid.Row="0" Padding="5" VerticalOptions="Center">
+                                        <Label Text="{Binding CountryName}" FontSize="Medium" FontAttributes="Bold" />
+                                        <Label Text="{Binding IsoCode}" FontAttributes="Italic" />
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
+            <!-- Example 4 (with CollectionView.Footer) -->
+            <CollectionView HorizontalOptions="Center" SelectionMode="None" Grid.Row="3">
+                <CollectionView.Footer>
+                    <VerticalStackLayout BackgroundColor="#D4E6F1" Padding="5">
+                        <Label Text="Contact-dev (SoumyadipYT-OSS)" HorizontalOptions="Center" FontAttributes="Bold" />
+                    </VerticalStackLayout>
+                </CollectionView.Footer>
+            </CollectionView>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
